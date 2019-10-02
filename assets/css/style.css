@@ -389,6 +389,7 @@
         @media only screen and (max-width: 640px) {
             header {
                 height: 20vh;
+                max-height: 100px;
                 display: block;
                 width: 100vw;
                 position: static;
@@ -397,6 +398,8 @@
                 position: relative;
                 display: block;
                 width: 100vw;
+                height: 10vh;
+                max-height: 50px;
                 padding: 0 0 0 0;
                 margin: 0 0 0 0;
                 left: 0;
@@ -405,6 +408,8 @@
                 position: relative;
                 display: block;
                 width: 100vw;
+                height: 10vh;
+                max-height: 50px;
                 padding: 0 0 0 0;
                 margin: 0 0 0 0;
                 left: 0;
