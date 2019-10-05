@@ -293,7 +293,6 @@
                 text-align: justify;
                 line-height: 1.5em;
                 text-indent: 1.5em;
-                /* min-height: calc(100vh - 90px); */
             }
             .picture {
                 padding-left: 30px;
@@ -310,8 +309,6 @@
                 margin: 10px 30px 10px 30px;
             }
             .about_me_text {
-                /* font-size: 1em; */
-                /* line-height: 1.5rem; */
                 text-indent: 0;
                 padding-left: 30px;
                 padding-right: 30px;
@@ -319,9 +316,7 @@
                 padding-bottom: 30px;
             }
             footer {
-                /* position: sticky; */
                 height: 70px;
-                /* margin-top: -70px; */
             }
             .footer {
                 text-align: center;
@@ -348,6 +343,9 @@
                 margin: 0 0 0 0;
                 width: 500px;
             }
+            .port_item {
+                margin-left: 30px;
+            }
         }
         
         @media only screen and (max-width: 768px) {
@@ -362,7 +360,6 @@
                 text-align: justify;
                 line-height: 1.5em;
                 text-indent: 1.5em;
-                /* min-height: calc(100vh - 90px); */
             }
             .about_me_text {
                 font-size: 1.5em;
@@ -383,6 +380,9 @@
                 margin-left: 30px;
                 padding: 30px 5px 20px 0px;
                 font-size: 1.5em;
+            }
+            .green-button {
+                display: block;
             }
         }
         
